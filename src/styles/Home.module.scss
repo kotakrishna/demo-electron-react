@@ -1,0 +1,26 @@
+.eachButton{
+    border: 1px solid rgb(41, 40, 40);
+    width: 256px;
+    text-align: center;
+    background-color: rgb(11, 10, 59);
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    height: 120px;
+    display: flex;
+    flex-direction: column ;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.icon{
+    color: white;
+    font-size: 30px;
+}
+.container{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    place-items: center;
+}
